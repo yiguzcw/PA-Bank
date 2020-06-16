@@ -1,0 +1,14 @@
+@import '~@/styles/var.scss';
+
+.tabs-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  .tab{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
